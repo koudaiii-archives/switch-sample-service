@@ -1,0 +1,6 @@
+#!/bin/sh
+
+exec /vagrant/consul-template \
+  -consul 127.0.0.1:8500 \
+  -template "/vagrant/tmpl/green.conf:/etc/nginx/conf.d/app.conf:service nginx restart" \
+  -once

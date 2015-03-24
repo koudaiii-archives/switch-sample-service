@@ -1,0 +1,11 @@
+{
+  "service": {
+    "name": "green",
+    "tags": ["rails"],
+    "port": 80,
+    "check": {
+      "http": "http://192.168.33.13",
+      "interval": "10s"
+    }
+  }
+}
