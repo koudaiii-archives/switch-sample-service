@@ -73,3 +73,7 @@ root@LB# /vagrant/consul watch -type=event -name="switch-blue" /vagrant/blue.ser
 # mv jq /usr/bin
 # curl -s http://127.0.0.1:8500/v1/health/checks/blue | jq .
 ```
+
+* Use docker
+
+* https://github.com/stlhrt/docker-consul/blob/master/Dockerfile
